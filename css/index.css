@@ -1,0 +1,9 @@
+#action-menu{
+	align-items: stretch;
+}
+.logo-menu{
+	padding: 30px;
+}
+#menu-pesquisa{
+	display: flex;
+}
