@@ -7,6 +7,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	overflow-x: hidden;
+}
 #menu-main{
 	height: 95px;
 }
@@ -33,7 +36,56 @@
 .img_size{
 	object-fit: contain;
 }
+
+h2 strong{
+	margin-left: 205px;
+	color: #5c0f8b;
+	margin-bottom: 30px;
+}
+
+h2{
+	color: #5c0f8b;
+}
+
+#plano-mais{
+	margin-left: 195px;
+}
+
+#plano-mais-card{
+	padding: 30px;
+}
+
+#cards-elementos{
+	margin-left: 195px;
+}
+
+#elemento-card-1{
+	
+}
+
+#elemento-card-2{
+	padding: 0;
+	margin: 0;
+}
+
+#vazio{
+	height: 25px;
+}
+
+
+
+
+
 /*
+
+/*
+
+/*.img_card{
+	
+	border-radius: 0;
+	width: 618px;
+}*/
+
 .container{
 	max-width: 100%;
 	margin: 0;
