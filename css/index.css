@@ -44,15 +44,36 @@ a{
 /*Estilos aplicados ao carrossel*/
 .img_size{
 	object-fit: contain;
+	height: 368px;
 }
 
 
 /*Estilos aplicados ao rodape 1*/
-#rdp{
-	height: 90px;
+.rodape{
+	width: 102%;
+	height: 100px;
 	background-color: #f16223;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.rodape_item{
 	display: flex;
+	align-items: center;
 	justify-content: center;
+}
+.rodape_item a span, svg{
+	color: #fff;
+}
+.rodape_item:hover a span,.rodape_item:hover a svg{
+	color: #5c0f8b;
+}
+.rodape_item:hover{
+	cursor: pointer;
+}
+.aplicaBordasInRight{
+	border-right-width: thin;
+	border-right-color: blue;
+	border-right-style: solid;
 }
 
 
@@ -74,26 +95,26 @@ h2{
 #plano-mais-card{
 	padding: 30px;
 }
-#cards-elementos{
-	margin-left: 195px;
+#content_do_Cartao_1{
+	display:flex;
+	justify-content:flex-end;
 }
-#elemento-card-2{
-	padding: 0;
-	margin: 0;
+.cartao_item:hover{
+	cursor: pointer;
+	box-shadow: 4px 4px 12px #000;
 }
 
 
 /*Estilos aplicados a area do texto flutuante*/
-#img-texto_flutuante{
-	
-}
 #texto_flutuante{
 	position: absolute;
 	width: 400px;
-	left: 305px;
+	left: 355px;
+	top: 1650px;
 }
 #titulo-de-texto-flutuante{
 	color: #f16223;
+	font-size: 46px;
 }
 #corpo-de-texto-flutuante{
 	color: white;
@@ -103,4 +124,12 @@ h2{
 #texto-equi{
 	text-align: center;
 	color: #5c0f8b;
+	font-size: 40px;
+}
+
+/**/
+.img_carousel-tab{
+	object-fit: contain;
+	width: 300px;
+	height: 300px;
 }
