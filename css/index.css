@@ -7,7 +7,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 body{
 	overflow-x: hidden;
@@ -50,7 +49,7 @@ a{
 
 /*Estilos aplicados ao rodape 1*/
 .rodape{
-	width: 102%;
+	width: 100%;
 	height: 100px;
 	background-color: #f16223;
 	padding-left: 200px;
@@ -72,7 +71,7 @@ a{
 }
 .aplicaBordasInRight{
 	border-right-width: thin;
-	border-right-color: blue;
+	border-right-color: blue !important;
 	border-right-style: solid;
 }
 
@@ -81,6 +80,7 @@ a{
 #texto{
 	margin-left: 205px;
 	margin-bottom: 30px;
+	text-transfor: uppercase;
 }
 h2{
 	color: #5c0f8b;
@@ -103,7 +103,23 @@ h2{
 	cursor: pointer;
 	box-shadow: 4px 4px 12px #000;
 }
-
+.botao_cartao{
+	color: #f16223;
+	background-color: #5c0f8b;
+	text-transfor: uppercase;
+}
+.cartao_item:hover .botao_cartao{
+	color: #fff;
+	background-color: #f16223;
+}
+#botao_cartao_1{
+	color: #f16223;
+	background-color: #5c0f8b;
+	text-transfor: uppercase;
+}
+#botao_cartao_1:hover{
+	background-color: #3e0a5d;
+}
 
 /*Estilos aplicados a area do texto flutuante*/
 #texto_flutuante{
@@ -132,4 +148,76 @@ h2{
 	object-fit: contain;
 	width: 300px;
 	height: 300px;
+}
+
+
+/*Estilos aplicados ao ultimo rodape*/
+#rdp_f{
+	background-image: linear-gradient(45deg, #5c0f8b, #3e0a5d);
+}
+#rdp_f_1{
+	padding-top: 30px;
+	height: 240px;
+	margin-left: 275px;
+	margin-right: 275px;
+}
+#rdp_f_2{
+	height: 60px;
+	margin-left: 160px;
+	margin-right: 160px;
+	border-top-width: thin;
+	border-top-color: rgba(255,255,255,0.1);
+	border-top-style: solid;
+}
+.rdp_item ul li a{
+	color: #f16223;
+	font-size: 11px;
+	line-height: 0.7px;
+}
+.rdp_item span{
+	color: #f16223;
+	font-size: 12px;
+}
+.rdp_item{
+	padding-top: 10px;
+}
+.rdp_item ul li{
+	margin-left: -31.5px;
+}
+.rdp_item ul li a:hover, .rdp_item span:hover{
+	color: #d44a0d;
+}
+#rdp_item_logo{
+	padding-top: 80px;
+}
+#rdp_logo{
+	margin-bottom: 20px;
+	height: 30px;
+}
+.icones_rdp a svg{
+	color:  #f16223;
+}
+.icones_rdp a:hover svg{
+	color:  #fff;
+}
+#rdp_f_2_item_1{
+	color: #f16223;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+}
+#rdp_f_2_item_2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+}
+#rdp_f_2_item_2 ul{
+	display: flex;
+	align-items: center;
+}
+#rdp_f_2_item_2 ul li a{
+	color: #f16223;
+	margin-right: 3px;
 }
