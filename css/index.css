@@ -1,6 +1,9 @@
 /*
 	cor: #5c0f8b; - rocha
 	cor: #f16223; - laranja
+
+	transparent linear-gradient(270deg,#fff,#efefef)
+	background: transparent linear-gradient(144deg,#5c0f8b,#301555)
  */
 
  /*Estilos aplicados a todo o corpo do site*/
@@ -23,33 +26,100 @@ a{
 
 
 /*Estilos aplicados ao menu do site*/
-#logo{
-	display: flex;
-	align-items: center;
-}
-#menu-main{
+#menu{
 	height: 95px;
+	background-color: #ffffff;
 }
-#login{
+#menu_esq{
 	display: flex;
 	align-items: center;
-	flex-direction: colms;
+	justify-content: center;
+	padding-left: 30px;
+	padding-right: 30px;
 }
-#log{
-	background-color: #5c0f8b;
+#menu_centro{
+	box-sizing: border-box;
+	height: 100%;
+}
+.menu_centro_item{
+	height: 50%;
+}
+#menu_centro_top{
+	background: transparent linear-gradient(270deg,#fff,#efefef);
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#menu_centro_top li a{
+	font-size: 11px;
+	padding-left: 28px;
+	color: #5c0f8b;
+	font-family: Arial,Helvetica,sans-serif;
+}
+#menu_centro_top li:hover a{
+	color: #f16223;
+}
+#menu_centro_botton{
+	background-color: #ffffff;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+#menu_centro_botton li a{
+	font-family: Arial,Helvetica,sans-serif;
+	color: #5c0f8b;
+	font-weight: bold;
+	font-size: 12px;
+}
+#menu_centro_botton li #a1{
+	margin-left: -12px;
+}
+#menu_centro_botton li .a_item{
+	margin-left: 15px;	
+}
+#menu_centro_botton li:hover a{
+	color: #f16223;
+}
+#menu_dir{
+	height: 100%;
+}
+#item_pesquisa{
+	background-color: #ffffff;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 10px;
+}
+#btn_pesquisa svg{
+	color: #5c0f8b;
+}
+#item_login{
+	background: transparent linear-gradient(144deg,#5c0f8b,#301555);
+}
+#item_login a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#item_login a svg, span{
+	color: #f16223;
+}
+#item_login a span{
+	font-size: 13px;
 }
 
 
 /*Estilos aplicados ao carrossel*/
 .img_size{
 	object-fit: contain;
-	height: 368px;
+	/*height: 368px;*/
 }
 
 
 /*Estilos aplicados ao rodape 1*/
 .rodape{
-	width: 100%;
 	height: 100px;
 	background-color: #f16223;
 	padding-left: 200px;
@@ -71,7 +141,7 @@ a{
 }
 .aplicaBordasInRight{
 	border-right-width: thin;
-	border-right-color: blue !important;
+	border-right-color: linear-gradient(45deg,#f16223,#d44a0d);
 	border-right-style: solid;
 }
 
