@@ -20,6 +20,9 @@
 				<div class="row menu_centro_item">
 					<ul id="menu_centro_top">
 						<li>
+							<a href="#">PARTICULARES</a>
+						</li>
+						<li>
 							<a href="#">EMPRESAS</a>
 						</li>
 						<li>
@@ -29,27 +32,57 @@
 				</div>
 				<div class="row menu_centro_item">
 					<ul id="menu_centro_botton">
-						<li>
-							<a href="#" id="a1">Voz</a>
+						<li class="botton_items" id="item_1">
+							<a href="#">Voz</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_items">Tarifários</li>
+								<li class="sub_menu_items">Serviços</li>
+							</ul>
 						</li>
-						<li>
-							<a href="#" class="a_item">SMS</a>
+						<li class="botton_items" id="item_2">
+							<a href="#">SMS</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_items">Meneagene</li>
+								<li class="sub_menu_items">MMS</li>
+								<li class="sub_menu_items">Toque-Toque</li>
+							</ul>
 						</li>
-						<li>
-							<a href="#" class="a_item">Internet</a>
+						<li class="botton_items" id="item_3">
+							<a href="#">Internet</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_items">Tarifários</li>
+								<li class="sub_menu_items">Serviços</li>
+							</ul>
 						</li>
-						<li>
-							<a href="#" class="a_item">Roaming</a>
+						<li class="botton_items" id="item_4">
+							<a href="#">Roaming</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_items">Roaming</li>
+								<li class="sub_menu_items">Tarifários</li>
+							</ul>
 						</li>
-						<li>
-							<a href="#" class="a_item">Mundo Unitel</a>
+						<li class="botton_items" id="item_5">
+							<a href="#">Mundo Unitel</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_items">Net show</li>
+								<li class="sub_menu_items">Portal Unitel</li>
+								<li class="sub_menu_items">Toque de Espera</li>
+								<li class="sub_menu_items">Kisom</li>
+								<li class="sub_menu_items">Clube de Pontos</li>
+								<li class="sub_menu_items">Menu USSD</li>
+								<li class="sub_menu_items">App Unitel</li>
+							</ul>
 						</li>
-						<li>
-							<a href="#" class="a_item">Serviços</a>
+						<li class="botton_items" id="item_6">
+							<a href="#">Serviços</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_items">10 amigos</li>
+								<li class="sub_menu_items">Serviços  Tudo</li>
+								<li class="sub_menu_items">Plano Mais</li>
+								<li class="sub_menu_items">Serviços Só</li>
+							</ul>
 						</li>
-						<li>
-							<a href="#" class="a_item">Apoio ao Cliente</a>
-						</li>
+						<li class="botton_items" id="item_7"><a href="#">Apoio ao Cliente</a></li>
 					</ul>
 				</div>
 			</div>
@@ -76,6 +109,9 @@
 		</div>
 	</header>
 
+	<div id="vazio"></div>
+	<div id="vazio"></div>
+
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,11 +120,12 @@
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
 		</div>
-		<div class="carousel-inner">
+		<div class="carousel-inner" id="imagens_carrossel">
 			<div class="carousel-item active container-img">
 				<img src="assets/img-1.jpeg" class="d-block w-100 img_size" alt="...">
 			</div>
 			<div class="carousel-item container-img">
+				<a href="#" class="btn" id="botao_slide">SABE MAIS AQUI ></a>
 				<img src="assets/img-2.jpeg" class="d-block w-100 img_size" alt="...">
 			</div>
 			<div class="carousel-item container-img">
@@ -110,11 +147,11 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-	<div id="vazio"></div>
+
 	<!--Primeiro rodape-->
 	<footer>
 		<div class="row rodape">
-			<div class="col-3 col-lg-3 col-sm-3 rodape_item aplicaBordasInRight" id="rodape_item_1">
+			<div class="col-12 col-lg-3 col-sm-12 rodape_item aplicaBordasInRight" id="rodape_item_1">
 				<a href="#">
 					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
 						<path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
@@ -123,7 +160,7 @@
 					<span>VOZ</span>
 				</a>
 			</div>
-			<div class="col-3 col-lg-3 col-sm-3 rodape_item aplicaBordasInRight" id="rodape_item_2">
+			<div class="col-12 col-lg-3 col-sm-12 rodape_item aplicaBordasInRight" id="rodape_item_2">
 				<a href="#">
 					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
 						<path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
@@ -131,7 +168,7 @@
 					<span>NET</span>
 				</a>
 			</div>
-			<div class="col-3 col-lg-3 col-sm-3 rodape_item aplicaBordasInRight" id="rodape_item_3">
+			<div class="col-12 col-lg-3 col-sm-12 rodape_item aplicaBordasInRight" id="rodape_item_3">
 				<a href="#">
 					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-handbag" viewBox="0 0 16 16">
 						<path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"/>
@@ -139,7 +176,7 @@
 					<span>MUNDO UNITEL</span>
 				</a>
 			</div>
-			<div class="col-3 col-lg-3 col-sm-3 rodape_item" id="rodape_item_4">
+			<div class="col-12 col-lg-3 col-sm-12 rodape_item" id="rodape_item_4">
 				<a href="#">
 					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
 						<path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
@@ -161,7 +198,7 @@
 	<!--Area de imagem e cards-->
 
 	<div class="row" id="plano-mais">
-		<div class="col-6 col-lg-6 col-sm-6"  id="plano-mais-img">
+		<div class="col-6 col-lg-6 col-sm-6" id="plano-mais-img">
 			<img src="assets/bg-1.jpeg" class="card-img-top img_card" alt="...">
 		</div>
 		<div class="col-6 col-lg-6 col-sm-6" id="plano-mais-card">
@@ -169,7 +206,7 @@
 				<div class="card-body">
 					<h2 class="card-title">PLANO MAIS DE 1 E 3 DIAS</h2>
 					<p class="card-text">Não fiques de fora. Liga, entra na net e manda uma mensagem. A unitel continua...</p>
-					<a href="#" class="btn" id="botao_cartao_1">Sabe mais aqui ></a>
+					<a href="#" class="btn" id="botao_cartao_1">SABE MAIS AQUI ></a>
 				</div>
 			</div>
 		</div>
@@ -183,9 +220,9 @@
 			<div class="card border-0 cartao_item" style="width: 28.5rem; height:28.5rem;">
 				<img src="assets/card-1.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">PORTAL UNITEL KIDS</h5>
+					<h3 class="card-title">PORTAL UNITEL KIDS</h3>
 					<p class="card-text">Unitel Kids é um portal com conteúdo internacional e nacional para crianças com uma finalidade...</p>
-					<a href="#" class="btn botao_cartao">Sabe mais aqui ></a>
+					<a href="#" class="btn botao_cartao">SABE MAIS AQUI ></a>
 				</div>
 			</div>
 		</div>
@@ -193,7 +230,7 @@
 			<div class="card border-0 cartao_item" style="width: 28.5rem; height:28.5rem;">
 				<img src="assets/card-2.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">4G UNITEL</h5>
+					<h3 class="card-title">4G UNITEL</h3>
 					<p class="card-text">Liga-te ao futuro com 4G! A velocidade aque se liga ao futuro faz...</p>
 					<a href="#" class="btn botao_cartao">Sabe mais aqui ></a>
 				</div>
@@ -220,6 +257,25 @@
 
 	<h2 id="texto-equi">Equipamentos</h2>
 	
+	<div id="vazio"></div>
+
+	<nav>
+		<ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+			<li class="nav-item item_tab" role="presentation">
+				<button class="nav-link active rounded-0" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">TELEMÓVEIS</button>
+			</li>
+			<li class="nav-item item_tab" role="presentation">
+				<button class="nav-link rounded-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">ACESSÓRIOS</button>
+			</li>
+		</ul>
+		<div id="contentor">
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">MCarioM@gmail.com</div>
+				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">NeyCarioM@gmail.com</div>
+			</div>
+		</div>
+	</nav>
+
 	<div id="vazio"></div>
 
 	<footer id="rdp_f">
