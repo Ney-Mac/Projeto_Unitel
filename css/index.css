@@ -102,10 +102,11 @@ a{
 }
 #menu_centro_botton .botton_items:hover .sub_menu{
 	display: flex;
+	float: left;
 	align-items: center;
 	justify-content: center;
 }
-#menu_centro_botton .botton_items .sub_menu .sub_menu_items{
+#menu_centro_botton .botton_items .sub_menu .sub_menu_items a{
 	padding: 10px;
 	color: #5c0f8b;
 	font-size: 12px;
